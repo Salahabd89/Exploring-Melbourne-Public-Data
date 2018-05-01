@@ -2,10 +2,10 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-street_furniture = pd.read_csv('/Users/salahabdallah/Desktop/Data Science Project/Melbourne/Street_furniture_including_bollards__bicycle_rails__bins__drinking_fountains__horse_troughs__planter_boxes__seats__barbecues.csv')
-trees = pd.read_csv('/Users/salahabdallah/Desktop/Data Science Project/Melbourne/Trees__with_species_and_dimensions__Urban_Forest_.csv')
-resources = pd.read_csv('/Users/salahabdallah/Desktop/Data Science Project/Melbourne/Environmental_resources_consumed__including_air_travel__chemicals__electricity__fuel__gas__water__and_waste_generated_2013-14.csv')
-pedestrians = pd.read_csv('/Users/salahabdallah/Desktop/Data Science Project/Melbourne/Pedestrian_volume__updated_monthly_.csv')
+street_furniture = pd.read_csv('./Data/Street_furniture_including_bollards__bicycle_rails__bins__drinking_fountains__horse_troughs__planter_boxes__seats__barbecues.csv')
+trees = pd.read_csv('./Data/Trees__with_species_and_dimensions__Urban_Forest_.csv')
+resources = pd.read_csv('./Data/Environmental_resources_consumed__including_air_travel__chemicals__electricity__fuel__gas__water__and_waste_generated_2013-14.csv')
+pedestrians = pd.read_csv('./Data/Pedestrian_volume__updated_monthly_.csv')
 
 
 street_furniture.dtypes
